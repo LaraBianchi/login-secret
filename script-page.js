@@ -12,16 +12,14 @@ setInterval(horario, 1000);
 
 //
 
-function mouseEmail () {
-  document.getElementById("email").addEventListener('mousemove', function() {
+function mouseEmail() {
+  document.getElementById("email").addEventListener('mousemove', function () {
     this.textContent = "pedro.oliveira566@gmail.com";
   });
 };
 
-function removeMouse () {
- document.getElementById("email").addEventListener('mouseout', function() {
-   this.textContent = "E-mail";
- });
+function removeMouse() {
+  document.getElementById("email").addEventListener('mouseout', function () {
+    this.textContent = "E-mail";
+  });
 };
-
-//
